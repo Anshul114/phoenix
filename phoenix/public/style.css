@@ -111,6 +111,8 @@ body{
 .header{
     position: sticky;
     top: 0;
+    background-color: var(--background-color);
+    width:  100vw;
 }
 .header-content{
 
