@@ -43,8 +43,24 @@
             <div class="content-left">
 
 
-                <div class="heading">Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” —Malcolm X</div>
+                <!-- <div class="heading">Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” —Malcolm X</div> -->
                 <!-- <div class="section-title">Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” —Malcolm X</div> -->
+
+                <section class="home">
+                    <div class="container">
+                       <div class="row">
+                           <div class="home-text">
+                                <p class="animate-text">
+                                   <span>There are plenty of difficult obstacles in your path. Don't allow yourself to become one of them." - Ralph Marston</span>
+                                   <span>Self-belief and hard work will always earn you success." – Virat Kohli</span>
+                                   <span>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning." – Albert Einstien</span>
+                                   <span>Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” —Malcolm X</span>
+                                </p>
+                           </div>
+                       </div>
+                    </div>
+                </section>
+
                 <div class="button-group">
                     <a href="#start" class="start-button">Counselling</a>
                     <a href="#tour" class="tour-button">Vision</a>
@@ -379,5 +395,38 @@
             © 2021 - Present StudySync. All rights reserved.
         </div>
     </div>
+    <script>
+        const txts=document.querySelector(".animate-text").children,
+              txtsLen=txts.length;
+          let index=0;
+         const textInTimer=3000,
+               textOutTimer=2800;
+
+        function animateText() {
+           for(let i=0; i<txtsLen; i++){
+             txts[i].classList.remove("text-in","text-out");  
+           }
+           txts[index].classList.add("text-in");
+
+           setTimeout(function(){
+               txts[index].classList.add("text-out");              
+           },textOutTimer)
+
+           setTimeout(function(){
+
+             if(index == txtsLen-1){
+                 index=0;
+               }
+              else{
+                  index++;
+                }
+               animateText();
+           },textInTimer); 
+        }
+        
+        window.onload=animateText;
+  
+</script>
 </body>
+
 </html>
