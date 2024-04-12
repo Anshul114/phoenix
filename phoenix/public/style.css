@@ -17,11 +17,12 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body{
     background: linear-gradient(180deg, #FFFFFF 0%, #000000 100%), linear-gradient(90deg, #FFFFFF 0%, #000000 100%), #00FFFF;
-background-blend-mode: multiply, screen, normal;
+    background-blend-mode: multiply, screen, normal;
     height: 100vh;
     text-align: center;
     background-color: var(--background-color);
@@ -32,6 +33,28 @@ background-blend-mode: multiply, screen, normal;
     border: 1px solid black;
 } */
 
+/* .section-title{
+    font-size: 13px;
+}
+.section-title:first-child{
+    animation: anim 12s infinite;
+} */
+
+
+/* @keyframes anim{
+    0%{
+        margin-top: 0px;
+    }
+    25%{
+        margin-top: -60px;
+    }
+    75%{
+        margin-top: -120px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+} */
 .header-content{
     max-width: 1280px;
     margin: 0 auto;
@@ -126,7 +149,9 @@ background-blend-mode: multiply, screen, normal;
     height: 1.5rem;
     width: 1.5rem;
 }
-
+.content{
+    height: 100vh;
+}
 .main-section{
     max-width: 1280px;
     display: flex;
@@ -312,7 +337,11 @@ background-blend-mode: multiply, screen, normal;
 }
 
 .feature-container{
-    background-color: var(--light-gray);
+    margin-top: -30px;
+    height: 95vh;
+    background: linear-gradient(180deg, #FFFFFF 0%, #000000 100%), linear-gradient(90deg, #FFFFFF 0%, #000000 100%), #00FFFF;
+    background-blend-mode: multiply, screen, normal;
+    background-color: var(--background-color);
     padding: 2.5rem 0;
     text-align: center;
 }
@@ -364,6 +393,7 @@ background-blend-mode: multiply, screen, normal;
 }
 .icon-container{
     background-color: var(--background-color);
+    
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
@@ -388,27 +418,27 @@ background-blend-mode: multiply, screen, normal;
 }
 
 .feature-card:nth-child(1){
-    background-color: #4a90e2;
+    background-color: #192430;
 }
 
 .feature-card:nth-child(2){
-    background-color: #FF6289;
+    background-color: #192430;
 }
 
 .feature-card:nth-child(3){
-    background-color: #fcbf58;
+    background-color: #192430;
 }
 
 .feature-card:nth-child(4){
-    background-color: #44bfc3;
+    background-color: #192430;
 }
 
 .feature-card:nth-child(5){
-    background-color: #77b05d;
+    background-color: #192430;
 }
 
 .feature-card:nth-child(6){
-    background-color: #7d78b1;
+    background-color: #192430;
 }
 
 @media screen and (max-width:768px) {

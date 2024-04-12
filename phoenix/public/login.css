@@ -17,14 +17,12 @@
 }
   body{
 
-    background: linear-gradient(60deg, #2B2E4A 0%, #2B2E4A 30%, #E84545 calc(30% + 1px), #E84545 60%, #903749 calc(60% + 1px), #903749 70%, #53354A calc(70% + 1px), #53354A 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background: url(../public/assests/bg.jpg) no-repeat; */
-    /* background-color: var(--background-color); */
-    background-size: cover;
+    background: url(../public/assests/cool-background.png) no-repeat;
+
     background-position: center;
         
   }
