@@ -21,7 +21,7 @@
 }
 
 body{
-    background: linear-gradient(180deg, #FFFFFF 0%, #000000 100%), linear-gradient(90deg, #FFFFFF 0%, #000000 100%), #00FFFF;
+    background: linear-gradient(180deg, #eae8e8 0%, #000000 100%), linear-gradient(90deg, #FFFFFF 0%, #000000 100%), #00FFFF;
     background-blend-mode: multiply, screen, normal;
     /* height: 100vh; */
     text-align: center;
@@ -100,12 +100,6 @@ body{
 
    }
 }
-
-
-
-
-
-
 
 
 .header{
