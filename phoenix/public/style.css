@@ -21,11 +21,11 @@
 }
 
 body{
-    background: linear-gradient(180deg, #eae8e8 0%, #000000 100%), linear-gradient(90deg, #FFFFFF 0%, #000000 100%), #00FFFF;
+    background: linear-gradient(180deg, #FFFFFF 0%, #000000 100%), linear-gradient(90deg, #FFFFFF 0%, #000000 100%), #00FFFF;
     background-blend-mode: multiply, screen, normal;
+    background-color: var(--background-color);
     /* height: 100vh; */
     text-align: center;
-    background-color: var(--background-color);
     padding: 0.1rem;
 }
 
