@@ -6,9 +6,10 @@
   <title>Login</title>
   <link rel="stylesheet" href="../public/login.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-  <div class="wrapper">
+  <div class="wrapper" data-aos="fade-right">
     <form action="">
       <h1>Login</h1>
       <div class="input-box">
@@ -29,5 +30,15 @@
       </div>
     </form>
   </div>
+
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 3000,
+      once: true,
+    });
+  </script>
+
 </body>
 </html>
