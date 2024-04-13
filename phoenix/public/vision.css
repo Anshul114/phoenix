@@ -19,24 +19,27 @@
     scroll-behavior: smooth;
     /* /* background: linear-gradient(180deg, #FFFFFF 0%, #000000 100%), linear-gradient(90deg, #FFFFFF 0%, #000000 100%), #00FFFF;
     background-blend-mode: multiply, screen, normal; */
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 body{
     background-image: linear-gradient(to right top, #b5aaaf, #b0a6ae, #a9a3ad, #a2a0ac, #9a9daa, #939aa6, #8d97a1, #87949c, #839095, #7f8b8d, #7c8686, #7a8180);
     height: 100vh;
+    font-size: 1.5rem;
 }
 div{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-margin-top: 30vh;
-margin-left: 10vw;
-width:80vw;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-background-image: linear-gradient(to right top, #f3f2f2, #eae9e9, #e0e0e0, #d7d7d7, #cecece, #c7c7c7, #bfc0c0, #b8b9b9, #b1b2b2, #a9abab, #a2a5a5, #9b9e9e);
-padding: 5px;
-border-radius: 10px;
-/* border: #555 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    width:80vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-image: linear-gradient(to right top, #f3f2f2, #eae9e9, #e0e0e0, #d7d7d7, #cecece, #c7c7c7, #bfc0c0, #b8b9b9, #b1b2b2, #a9abab, #a2a5a5, #9b9e9e);
+    padding: 5px;
+    border-radius: 10px;
+    /* border: #555 2px solid; */
 }
 
 h1{

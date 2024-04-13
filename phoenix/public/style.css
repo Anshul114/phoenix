@@ -720,6 +720,7 @@ body{
 }
 
 .footer-container{
+
     background-color: var(--background-color);
     margin: 0 auto;
     padding: 0 2rem;
@@ -738,10 +739,10 @@ body{
 }
 
 .footer-top{
-    width: 34%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    gap: 0.125rem;
+    gap: 0.025rem;
 }
 
 .logo-svg{

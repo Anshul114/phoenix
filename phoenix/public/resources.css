@@ -18,6 +18,8 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 
